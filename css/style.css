@@ -1,0 +1,99 @@
+body {
+	font-family: 'Cutive Mono';
+	color: #aaa;
+	text-align: center;
+	background-color: #204060;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.main-header {
+	font-size: 5em;
+	color: #fff;
+	font-weight: normal;
+	text-shadow: 5px 5px 7.5px #000;
+}
+ 
+
+
+/*NAV BAR*/
+
+.nav-container {}
+
+.nav-bar {
+	/*max-width: 60%;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	/*margin: -2em 0 4em;*/
+}
+
+.nav-bar li {
+	margin: 0 2em 0;
+
+}
+
+.selected {
+	font-size: 1.5rem;
+}
+
+
+/*MAIN*/
+
+.player-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+iframe {
+	margin: 0 2em 0;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.main-left {
+	float: left;
+	width: 600px;
+}
+
+.main-left img {
+	max-width: 600px;
+}
+
+.main-right {
+	background-color: black;
+	float: right;
+	width: 600px;
+	height: 428px;
+	text-align: left;
+}
+
+.main-right p span {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.main-right p, h1 {
+	
+	margin-left: 20px;
+} 
+
+
+
+footer {
+
+	margin-top: 3em;
+}
