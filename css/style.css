@@ -12,6 +12,10 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	list-style: none;
+	padding-left: 0;
+}
 
 /* LOGO */
 
@@ -28,16 +32,20 @@ a {
 /*.nav-container, */
 .nav-bar {
 	display: flex;
-	list-style: none;
+	/*list-style: none;*/
 	margin: auto;
 	padding-left: 0;
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
 
 }
 
+.nav-bar li {
+	/*border: 1px solid red;*/
+	margin: .33em .33em .33em .33em;
+}
 .nav-container {
 	margin-bottom: 1.65em;
 }
@@ -48,22 +56,34 @@ a {
 }
 
 
-/*MAIN*/
-
 /* AUDIO PLAYER */
 
 .audio-container {
-	margin-top: 5em;
+	margin-top: 4em;
 
 }
 
+.audio-container li {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
 .audio-container p {
-	margin-bottom: .66em;
+	margin-bottom: .33em;
 }
 
 /*FOOTER*/
 
 footer {
 	font-size: .65em;
-	margin-top: 3em;
+	/*margin-top: 3em;*/
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 25px;
+	background-color: #204060;
+}
+
+footer * {
+	border: 1px solid red;
 }
