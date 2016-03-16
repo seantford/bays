@@ -31,7 +31,7 @@ a {
 	list-style: none;
 	margin: auto;
 	padding-left: 0;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
