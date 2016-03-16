@@ -1,3 +1,5 @@
+/* MOBILE FIRST */
+
 body {
 	font-family: 'Cutive Mono';
 	color: #aaa;
@@ -10,7 +12,10 @@ a {
 	text-decoration: none;
 }
 
-.main-header {
+
+/* LOGO */
+
+.bays-logo {
 	font-size: 5em;
 	color: #fff;
 	font-weight: normal;
@@ -18,82 +23,47 @@ a {
 }
  
 
-
 /*NAV BAR*/
 
-.nav-container {}
-
+/*.nav-container, */
 .nav-bar {
-	/*max-width: 60%;*/
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 	list-style: none;
-	padding: 0;
-	/*margin: -2em 0 4em;*/
+	margin: auto;
+	padding-left: 0;
+	border: 1px solid red;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
 }
 
-.nav-bar li {
-	margin: 0 2em 0;
-
+.nav-container {
+	margin-bottom: 1.65em;
 }
 
 .selected {
-	font-size: 1.5rem;
+	font-size: 1.5em;
+	color: #fff;
 }
 
 
 /*MAIN*/
 
-.player-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+/* AUDIO PLAYER */
+
+.audio-container {
+	margin-top: 5em;
+
 }
 
-iframe {
-	margin: 0 2em 0;
+.audio-container p {
+	margin-bottom: .66em;
 }
 
-.main-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-
-.main-left {
-	float: left;
-	width: 600px;
-}
-
-.main-left img {
-	max-width: 600px;
-}
-
-.main-right {
-	background-color: black;
-	float: right;
-	width: 600px;
-	height: 428px;
-	text-align: left;
-}
-
-.main-right p span {
-	font-size: 2em;
-	font-weight: bold;
-}
-
-.main-right p, h1 {
-	
-	margin-left: 20px;
-} 
-
-
+/*FOOTER*/
 
 footer {
-
+	font-size: .65em;
 	margin-top: 3em;
 }
