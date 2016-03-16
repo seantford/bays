@@ -6,7 +6,7 @@ body {
 	text-align: center;
 	background-color: #204060;
 }
-
+/* add in a cinematic sort of gradient for whole page*/
 a {
 	color: inherit;
 	text-decoration: none;
@@ -28,8 +28,6 @@ ul {
  
 
 /*NAV BAR*/
-
-/*.nav-container, */
 .nav-bar {
 	display: flex;
 	/*list-style: none;*/
@@ -46,21 +44,24 @@ ul {
 	/*border: 1px solid red;*/
 	margin: .33em .33em .33em .33em;
 }
-.nav-container {
-	margin-bottom: 1.65em;
-}
 
 .selected {
 	font-size: 1.5em;
+	font-style: bold;
 	color: #fff;
 }
 
+/* TAB-SPECIFIC CONTENT */
+.store,
+.news,
+.contact {
+	display: none;
+	margin-top: 3.14em;
+}
 
 /* AUDIO PLAYER */
-
 .audio-container {
 	margin-top: 4em;
-
 }
 
 .audio-container li {
@@ -73,15 +74,10 @@ ul {
 }
 
 /*FOOTER*/
-
 footer {
 	font-size: .65em;
-	/*margin-top: 3em;*/
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 25px;
-	background-color: #204060;
+	margin-top: 3.14em;
+	/*border: 1px solid red;*/
 }
 
 footer * {

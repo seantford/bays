@@ -12,41 +12,46 @@
 	</head>
 
 	<body>
+		<!-- container for the whole body -->
 		<div class="container">
 
-		<h1 class="bays-logo">bays</h1>
+			<h1 class="bays-logo">bays</h1>
 
-		<ul class="nav-bar">
-			<li><a href="#" class="selected"><strong>listen</strong></a></li>
-			<li><a href="#">store</a></li>
-			<li><a href="#">news</a></li>
-			<li><a href="#">contact</a></li>
-		</ul>
+			<ul class="nav-bar">
+				<li><a id="listen-btn" href="#" class="selected">listen</a></li>
+				<li><a id="store-btn" href="#">store</a></li>
+				<li><a id="news-btn" href="#">news</a></li>
+				<li><a id="contact-btn" href="#">contact</a></li>
+			</ul>
+
+			<!-- tab-specific content which will be hidden and shown by js -->
+			<div class="store">
+				<p>coming soon...</p>
+			</div>
+
+			<div class="news">
+				<p>coming soon...</p>
+			</div>
+
+			<div class="contact">
+				<a href="mailto:seanthomasford@gmail.com">click to email</a>
+			</div>
+
+			<!-- audio player stays no matter what tab is selected -->
+			<ul class="audio-container">
+				<li>
+					<p>the view from shore (coltrane)</p>
+					<audio controls>
+						<source src="media/the-view-from-shore-(coltrane).mp3" type="audio/mp3">
+					</audio>
+				</li>
+			</ul>
 
 
-		<ul class="audio-container">
-
-			<li>
-				<p>the view from shore (coltrane)</p>
-				<audio controls>
-					<source src="media/the-view-from-shore-(coltrane).mp3" type="audio/mp3">
-				</audio>
-			</li>
-
-			<li>
-				<p>poly whatever</p>
-				<audio controls>
-					<source src="media/poly-whatever.mp3" type="audio/mp3">
-				</audio>
-			</li>
-		</ul>
-
-
-
-
+		</div>
 
 		<footer>
-			<p>&copy;sf</p>
+			<p>turn up the volume © sf</p>
 		</footer>
 
 		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
@@ -54,3 +59,16 @@
 
 	</body>
 </html>	
+
+
+
+
+
+
+
+
+
+
+
+
+
