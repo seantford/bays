@@ -1,7 +1,7 @@
 /* MOBILE FIRST */
 
 body {
-	font-family: 'Cutive Mono';
+	font-family: 'Cutive Mono', monospace;
 	color: #aaa;
 	text-align: center;
 	background-color: #204060;
@@ -24,6 +24,8 @@ ul {
 	color: #fff;
 	font-weight: normal;
 	text-shadow: 5px 5px 7.5px #000;
+	margin-top: .43em;
+	margin-bottom: .43em;
 }
  
 
@@ -34,7 +36,7 @@ ul {
 	margin: auto;
 	padding-left: 0;
 	/*border: 1px solid red;*/
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 
@@ -42,7 +44,9 @@ ul {
 
 .nav-bar li {
 	/*border: 1px solid red;*/
-	margin: .33em .33em .33em .33em;
+	margin: .43em .43em .43em .43em;
+	text-shadow: 2px 2px 2px #000,
+				 0px 0px 7.5px #000;
 }
 
 .selected {
@@ -69,8 +73,10 @@ ul {
 	margin-bottom: 2em;
 }
 
-.audio-container p {
+.song-title {
 	margin-bottom: .33em;
+	color: #fff;
+	text-shadow: 2px 2px 7.5px #000;
 }
 
 /*FOOTER*/
