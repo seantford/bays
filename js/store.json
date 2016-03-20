@@ -1,0 +1,17 @@
+write json for 'store' data
+
+{
+	"product": "3D Printed Art",
+	"price": 20,
+	"description": "3D printed art, made by bays"
+},
+{
+	"product": "original unique 3D print",
+	"price": 50,
+	"description": "3D printed art, made by bays, one time, just for you"
+},
+{
+	"product": "",
+	"price": ,
+	"description": ""
+}
